@@ -2,8 +2,61 @@
 <html>
     <head>
         <title>Britney's Webpage</title>
+        <style>
+            table {
+                border: 2px solid black;
+                border-collapse: collapse;
+                width: 45%;
+                text-align: center;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 5px;
+            }
+            th {
+                background-color: lightgrey;
+            }
+        </style>
     </head>
     <body>
-        Hello, World!
+        <h2>Hello, World!</h2>
+        An Unordered List:
+        <ul>
+            <li>One item</li>
+            <li>Another item</li>
+            <li>The last item</li>
+        </ul>
+        An Ordered List:
+        <ol>
+            <li>First item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ol>
+        
+        <!--
+        A random screenshot 
+        <img src="program.png" width="20%">
+        -->
+        A table to check winnings
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Lotto Type</th>
+                <th>Chosen Numbers</th>
+                <th>Winning Number</th>
+            </tr>
+            <tr>
+                <td>May 9, 2020</td>
+                <td>6/49</td>
+                <td>3, 5, 7, 18, 23, 34</td>
+                <td>13, 15, 18, 23, 37, 45</td>
+            </tr>
+        </table>
+
+        A form to enter winning Numbers
+        <form>
+            <input type="number" placeholder="Number 1" name="number 1">
+            <button>Submit</button>
+        </form>
     </body>
 </html>
